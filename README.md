@@ -3,7 +3,7 @@
 This project is a simple Bike Rental Shop system developed using PostgreSQL for the database and Bash Scripting for automation. It allows users to rent bikes, return them, and view rental history.
 
 ## Requirements
-1. *Database Setup:*
+1. _Database Setup:_
 - Create a PostgreSQL database for the Bike Rental Shop.
 ```
 createdb -U your_username -e your_database

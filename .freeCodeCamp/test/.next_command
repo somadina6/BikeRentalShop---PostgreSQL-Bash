@@ -150,3 +150,7 @@ git push origin1 master
 clear
 git add .
 git commit -am 'add readme.md'
+git push origin1 master
+clear
+git commit - am 'readme.md'
+git commit -am 'readme.md'
