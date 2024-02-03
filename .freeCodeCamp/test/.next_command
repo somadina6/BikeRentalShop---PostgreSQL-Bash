@@ -116,3 +116,14 @@ echo "$(echo ' M e ' | sed -E 's/ *$|^ *//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+git remote -v
+pg_dump
+psql -U codeally -d bikes -c pg_dump bikes > sqldump.sql
+psql -U freecodecamp -d bikes -c pg_dump bikes > sqldump.sql
+psql -U freecodecamp -d bikes
+psql -U freecodecamp -d bikes -c pg_dump bikes > sqldump.sql
+psql -U freecodecamp -d bikes -c pg_dump bikes > sqldump.sql
+man pg_dump
+pg_dump -U freecodecamp -d bikes bikes > sqldump.sql
+pg_dump -U freecodecamp bikes > sqldump.sql
+git add .
