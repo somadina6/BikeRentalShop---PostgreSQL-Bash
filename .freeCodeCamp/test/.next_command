@@ -127,3 +127,22 @@ man pg_dump
 pg_dump -U freecodecamp -d bikes bikes > sqldump.sql
 pg_dump -U freecodecamp bikes > sqldump.sql
 git add .
+git commit -m 'final commit'
+git push
+git config -l
+git remote add origin1 git@github.com:somadina6/BikeRentalShop---PostgreSQL-Bash.git
+git remote -v
+git push
+git push origin1
+git push origin1 master
+ls --color=auto -a
+git pull origin1 master
+git diff --color
+git diff --color --stat
+git push origin1 master
+git log
+clear
+ls --color=auto
+ls --color=auto -a
+touch README.md
+git commit -am 'add readme.md'
